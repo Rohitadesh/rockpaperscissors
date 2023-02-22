@@ -1,0 +1,12 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    height: 70%;
+    width:50%;
+    /* border:1px solid crimson; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
