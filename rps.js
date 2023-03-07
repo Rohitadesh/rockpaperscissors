@@ -39,10 +39,10 @@ function result1(you1,computer){
     }
 }
 stonebtn.addEventListener('click',()=>{
-    you.innerHTML='stone'
-    user_choice='stone'
-    let ai=opt[Math.floor(Math.random()*opt.length)]
-    result1(user_choice,ai)
+    // you.innerHTML='stone'
+    // user_choice='stone'
+     ai=opt[Math.floor(Math.random()*opt.length)]
+    // result1(user_choice,ai)
     computer.innerHTML=ai
 })
 paperbtn.addEventListener('click',()=>{
