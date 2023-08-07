@@ -11,12 +11,15 @@
 }
 .subcontainer{
     height: 40%;
-    width:40%;
+    width:50%;
     /* background-color: aqua; */
     border: 1px solid rebeccapurple;
     box-shadow: 10px 10px  darkcyan;
     font-style: italic;
     border-radius: 20%;
+}
+.computer{
+    font-size: x-large;
 }
 .flex{
     display: flex;
@@ -52,11 +55,11 @@
     }
     .subcontainer{
         height:50%;
-        width:50%;
+        width:45%;
         position:sticky;
     }
     .computer{
-        font-size: x-large;
+        font-size: medium;
     }
     .button{
         height: auto;
