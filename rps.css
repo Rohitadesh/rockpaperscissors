@@ -51,12 +51,12 @@
         width:100vw;
     }
     .subcontainer{
-        height:40%;
-        width:30%;
+        height:50%;
+        width:50%;
         position:sticky;
     }
     .computer{
-        font-size: x-large;
+        font-size: xx-large;
     }
     .button{
         height: auto;
