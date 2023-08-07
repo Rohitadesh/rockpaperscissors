@@ -4,14 +4,14 @@
 }
 .container{
     height: 100vh;
-    width:100%;
+    width:100vw;
     /* border:1px solid crimson; */
     background-color: rgb(196, 236, 236);
     /* flex-direction: column; */
 }
 .subcontainer{
     height: 40%;
-    width:30%;
+    width:40%;
     /* background-color: aqua; */
     border: 1px solid rebeccapurple;
     box-shadow: 10px 10px  darkcyan;
@@ -34,57 +34,33 @@
     align-items:center;
     gap:30px;
 }
-#stone{
-    background-color: rgb(202, 247, 243);
-    height: auto;
-}
-#paper{
-    background-color: rgb(202, 247, 243);
-    height: auto;
-}
-#cutter{
-    background-color:   rgb(195, 236, 223);
-    height: auto;
-}
 .buttons{
     height:30%;
     width:100%;
-    
+}
+.button{
+    background-color: rgb(202, 247, 243);
+    height:26%;
+    width:13%;
+    text-align: center;
 }
 
-@media screen and (min-width:600px)  {
-    #stone {
-        text-align: center;
+@media screen and (min-width:300px){    
+    .container{
+       height: 100vh;
+        width:100vw;
     }
-    #paper{
-        text-align:center;
+    .subcontainer{
+        height:50%;
+        width:30%;
+        position:sticky;
     }
-    #cutter{
-        text-align: center;
+    .computer{
+        font-size: x-large;
     }
-    #computer-choice{
-        text-align: center;
-        /* font-size: small; */
+    .button{
+        height: auto;
+        width:auto;
     }
-    #computer {
-        font-size: large;
-    }
-    #you{
-        font-size: large;
-    }
-    #result{
-        font-size: large;
-    }
-    #user-choice{
-        text-align:center;
-        font-size: small;
-    } 
-    .flex{
-        display: flex;
-        flex-direction: column;
-        flex-wrap:wrap;
-        justify-content: center;
-    }
-  
     
 }
