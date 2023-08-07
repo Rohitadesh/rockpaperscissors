@@ -18,9 +18,7 @@
     font-style: italic;
     border-radius: 20%;
 }
-.computer{
-    font-size: x-large;
-}
+
 .flex{
     display: flex;
     flex-direction: column;
