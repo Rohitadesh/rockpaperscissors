@@ -45,13 +45,13 @@
     text-align: center;
 }
 
-@media screen and (min-width:300px){    
+@media screen and (max-width:2000px){    
     .container{
        height: 100vh;
         width:100vw;
     }
     .subcontainer{
-        height:50%;
+        height:40%;
         width:30%;
         position:sticky;
     }
