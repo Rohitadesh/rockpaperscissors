@@ -24,6 +24,15 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items:center;
+    /* gap:20px; */
+}
+.flexbuttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap:30px;
 }
 #stone{
     background-color: rgb(202, 247, 243);
@@ -37,7 +46,13 @@
     background-color:   rgb(195, 236, 223);
     height: auto;
 }
-@media screen and (min-width:320px){
+.buttons{
+    height:30%;
+    width:100%;
+    
+}
+
+@media screen and (min-width:600px)  {
     #stone {
         text-align: center;
     }
@@ -49,21 +64,27 @@
     }
     #computer-choice{
         text-align: center;
+        /* font-size: small; */
+    }
+    #computer {
+        font-size: large;
+    }
+    #you{
+        font-size: large;
+    }
+    #result{
+        font-size: large;
     }
     #user-choice{
         text-align:center;
+        font-size: small;
+    } 
+    .flex{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: center;
     }
   
-    .subcontainer{
-        height:40%;
-        width:30%; 
-        box-shadow: 10px 10px  rgb(0, 65, 139);
-    }
-    .container{
-        height: 100vh;
-        width:100%;
-        /* border:1px solid crimson; */
-        background-color: rgb(196, 236, 236);
-        /* flex-direction: column; */
-    }
+    
 }
