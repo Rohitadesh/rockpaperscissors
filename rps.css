@@ -46,22 +46,34 @@
     text-align: center;
 }
 
-@media screen and (min-width:420px) and (min-height:336px){    
+@media screen and (max-width:600px){    
     .container{
-       height: 100vh;
-        width:100vw;
+      width:100%;
     }
     .subcontainer{
         height:40%;
-        width:55%;
-        position:sticky;
+        width:50%;
+        
     }
     .computer{
-        font-size: small;
+        font-size: large;
+        
     }
     .button{
-        height: auto;
-        width:auto;
-    }
+        background-color: rgb(202, 247, 243);
+        height:25%;
+        width:20%;
+        text-align: center;
+        
+    }  
+    .flexbuttons{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        /* gap:30px; */
+    } 
+    
     
 }
