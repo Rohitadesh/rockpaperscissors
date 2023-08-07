@@ -1,2 +1,2 @@
 # rockpaperscissors
-https://rockpaperscissors-rohitadesh.vercel.app/
+https://rockpaperscissors-delta.vercel.app/
