@@ -11,7 +11,7 @@
 }
 .subcontainer{
     height: 40%;
-    width:50%;
+    width:30%;
     /* background-color: aqua; */
     border: 1px solid rebeccapurple;
     box-shadow: 10px 10px  darkcyan;
@@ -41,9 +41,9 @@
 }
 .button{
     background-color: rgb(202, 247, 243);
-    height:26%;
-    width:16%;
-    text-align: center;
+    height: 25%;
+    width: 12%;
+    /* text-align: center; */
 }
 
 @media screen and (max-width:600px){    
@@ -51,7 +51,7 @@
       width:100%;
     }
     .subcontainer{
-        height:40%;
+        /* height:40%; */
         width:50%;
         
     }
@@ -74,6 +74,14 @@
         align-items:center;
         /* gap:30px; */
     } 
+    .flex{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        /* gap:20px; */
+    }
     
     
 }
